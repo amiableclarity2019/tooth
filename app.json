@@ -1,7 +1,7 @@
 ﻿{
-    "name": "XrayHeroku",
-    "description": "xray websocket proxy on heroku",
-    "keywords": ["xray vmess vless trojan shadowsocks socks tor"],
+    "name": "tooth",
+    "description": "tooth",
+    "keywords": ["tooth"],
     "env": {
         "AA": {
             "description": "初阶用户只需修改以下AUUID点击页面最后的Deploy app按钮即可开始部署",
@@ -9,7 +9,7 @@
         },
         "AUUID": {
             "description": "UUID充当各个配置的路径和账号密码，建议修改和妥善保存,可生成UUID的网站: https://www.uuidgenerator.net",
-            "value": "f8833420-6916-4358-b69e-dbad80f37a60"
+            "value": "08ed2188-087a-11eb-adc1-0242ac120002"
         },
         "CADDYIndexPage": {
             "description": "自定义CADDY部署完成后点击View的显示页面，参考：https://github.com/Lbingyi/HerokuXray/blob/master/etc/CADDYIndexPage.md",
@@ -32,7 +32,7 @@
             "value": "https://raw.githubusercontent.com/jone354df465/Railway-Xray1/master/etc/StoreFiles"
         }
     },
-    "website": "https://github.com/jone354df465/Railway-Xray1",
-    "repository": "https://github.com/jone354df465/Railway-Xray1",
+    "website": "",
+    "repository": "",
     "stack": "container"
 }
